@@ -17,7 +17,7 @@
         * [2,6,16,18,22,27] -> 6. sıradaki eleman en büyük olur ve öbeğimiz küçükten büyüğe sıralanmış olur.    
  
  2. Big-O gösterimini yazınız.
-    * İlk turda n elemanımız olsun ve biz en küçüğü bulmak n elemanı kontrol ederiz. Sonrasında ise geri kalan elemanları kontrol ederiz yani n-1 elamana bakarız. Böyle devam eder ve n+(n-1)+(n-2).. şeklinde ilerler. Yani 1'den n'e kadar olan sayıların toplamından (n.(n-1))/2 gelir buradan da Big-O Notation'umuz O(nn²) olur yani O(6^2) yani O(36)'dır.,
+    * İlk turda n elemanımız olsun ve biz en küçüğü bulmak n elemanı kontrol ederiz. Sonrasında ise geri kalan elemanları kontrol ederiz yani n-1 elamana bakarız. Böyle devam eder ve n+(n-1)+(n-2).. şeklinde ilerler. Yani 1'den n'e kadar olan sayıların toplamından (n.(n-1))/2 gelir buradan da Big-O Notation'umuz O(n²) olur yani O(6²) yani O(36)'dır.,
  3. Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
  4. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
 
