@@ -6,7 +6,6 @@
 [22,27,16,2,18,6] -> Insertion Sort
 
  1. Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
-
     * İlk önce bütün öbeği inceleriz ve en küçük olanı ilk sırada olan sayı ile yer değişir.
         * [2,27,16,22,18,6] -> 2 ile 22 yer değiştiriyor.
     * İkinci sıra için de 2'den sonra gelen en küçük sayıyı arar ve ikinci sırada olan sayı ile yer değişiriz.
@@ -16,7 +15,9 @@
         * [2,6,16,18,22,27] -> 18 ile 22 yer değiştiriyor.
         * [2,6,16,18,22,27] -> 5. sıradaki sayı en küçük olduğu için yer değiştirme olmaz.
         * [2,6,16,18,22,27] -> 6. sıradaki eleman en büyük olur ve öbeğimiz küçükten büyüğe sıralanmış olur.    
+ 
  2. Big-O gösterimini yazınız.
+    * İlk turda n elemanımız olsun ve biz en küçüğü bulmak n elemanı kontrol ederiz. Sonrasında ise geri kalan elemanları kontrol ederiz yani n-1 elamana bakarız. Böyle devam eder ve n+(n-1)+(n-2).. şeklinde ilerler. Yani 1'den n'e kadar olan sayıların toplamından (n.(n-1))/2 gelir buradan da Big-ONotation'umuz O(n^2) olur yani O(6^2) yani O(36)'dır.
  3. Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
  4. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
 
