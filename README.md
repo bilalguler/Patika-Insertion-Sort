@@ -1,7 +1,7 @@
 # Patika-Insertion-Sort
 
 * Patika Profil Linkim:
-        [https]https://app.patika.dev/guleerbilal
+        * https://app.patika.dev/guleerbilal
 
 ## Proje 1
 
